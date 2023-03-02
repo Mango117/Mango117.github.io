@@ -10,7 +10,7 @@
   "text": {
     "more": "This is a graph visualisation created from a pubmed search of papers studying Disorders of Consciousness.\n\nThe pubmed search was for the query \"Disorders of Consciousness\"\n\nTopic Modelling with NMF was performed to select relevant papers\n\nThe relevant papers were then searched for with a compound AAL3+Brodmann dictionary\n\nThe term-document matrix that was created was then used to make this graph",
     "intro": "Created from \"full texts subgroup corpus\"",
-    "title": "BMedSc DOC"
+    "title": "DOC Graphical Analysis"
   },
   "legend": {
     "edgeLabel": "Weight",
@@ -24,7 +24,7 @@
   },
   "informationPanel": {
     "groupByEdgeDirection": false,
-    "imageAttribute": false
+    "imageAttribute": "name"
   },
   "sigma": {
     "drawingProperties": {
@@ -33,17 +33,17 @@
       "defaultLabelBGColor": "#ddd",
       "activeFontStyle": "bold",
       "defaultLabelColor": "#000",
-      "labelThreshold": 5,
+      "labelThreshold": 10,
       "defaultLabelHoverColor": "#fff",
       "fontStyle": "bold",
       "hoverFontStyle": "bold",
-      "defaultLabelSize": 7
+      "defaultLabelSize": 14
     },
     "graphProperties": {
-      "maxEdgeSize": 2,
-      "minEdgeSize": 0.4,
-      "minNodeSize": 4,
-      "maxNodeSize": 18
+      "maxEdgeSize": 4,
+      "minEdgeSize": 0.2,
+      "minNodeSize": 1,
+      "maxNodeSize": 40
     },
     "mouseProperties": {
       "maxRatio": 20,
